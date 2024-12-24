@@ -13,7 +13,7 @@ spring:
     name: schools
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/schools
+    url: jdbc:postgresql://localhost:5432/orders
     username: username
     password: password
   jpa:
@@ -24,7 +24,7 @@ spring:
 
 application:
   config:
-    students-url: http://localhost:8222/api/v1/students
+    students-url: http://localhost:8222/api/v1/products
 
 management:
   tracing:
